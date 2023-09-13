@@ -1,28 +1,36 @@
 {
-    "name": "jacobcyl/ali-oss-storage",
-    "description": "aliyun oss filesystem storage for laravel 5+",
-    "keywords": ["aliyun", "oss", "laravel", "filesystems", "storage"],
-    "homepage": "http://jacobcyl.github.io/Aliyun-oss-storage/",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "jacobcyl",
-            "email": "cyl.jacob@gmail.com"
-        }
-    ],
-    "require": {
-        "aliyuncs/oss-sdk-php": "~2.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "Jacobcyl\\AliOSS\\": "src/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Jacobcyl\\AliOSS\\AliOssServiceProvider"
-            ]
-        }
+  "name": "jacobcyl/ali-oss-storage",
+  "description": "aliyun oss filesystem storage for laravel 10",
+  "keywords": [
+    "aliyun",
+    "oss",
+    "laravel",
+    "filesystems",
+    "storage"
+  ],
+  "homepage": "https://iwillgood.com/",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "miaotiao",
+      "email": "iwillgood@outlook.com"
     }
+  ],
+  "require": {
+    "php": "^8.1",
+    "aliyuncs/oss-sdk-php": "~2.6",
+    "laravel/framework": "^10.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Jacobcyl\\AliOSS\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Jacobcyl\\AliOSS\\AliOssServiceProvider"
+      ]
+    }
+  }
 }
